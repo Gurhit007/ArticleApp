@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="css/chui-android-3.8.5.css" rel="stylesheet" />
+        <script src="scripts/jquery-2.1.0.js"></script>
+        <script src="scripts/chui-3.8.5.min.js"></script>
+
+
+        <title>ArticleApp</title>
+    </head>
+    <body>
+
+        <nav class="current">
+            <h2> E-Shop </h2>
+        </nav>
+        <article id="Main" class="current">
+            <section>
+                <ul>
+                    <li data-goto="computers">
+                        <h3> Computers </h3> 
+                    </li>
+                    <li data-goto="mobiles">
+                        <h3> Mobiles </h3>
+                    </li>
+                    <li data-goto="accessories">
+                        <h3> Accessories </h3>
+                    </li>
+                </ul> 
+            </section>
+        </article>
+
+        <nav class="next">
+            <button class="button back"></button>
+            <h2> Computers </h2>
+            </nav>
+        <article id="computers" class="next">
+            <section>
+                <ul>
+                    <li><h3> Laptops </h3></li>
+                    <li><h3> Desktops </h3></li>
+                    <li><h3> Windows </h3></li>
+                    <li><h3> Linux </h3></li>
+                </ul>
+            </section>
+        </article>
+        
+        <nav class="next">
+            <button class="button back"></button>
+            <h2> Mobiles </h2>
+        </nav>
+        <article id="mobiles" class="next">
+            <section>
+                <ul>
+                    <li><h3> iPhone </h3></li>
+                    <li><h3> Nokia </h3></li>
+                    <li><h3> Samsung </h3></li>
+                    <li><h3> HTC </h3></li>
+                </ul>
+            </section>
+        </article>
+        
+        <nav class="next">
+            <button class="button back"></button>
+            <h2> Accesories </h2>
+        </nav>
+        <article id="accessories" class="next">
+            <section>
+                <ul>
+                    <li><h3> Mobile Covers </h3></li>
+                    <li><h3> Screen Guards </h3></li>
+                    <li><h3> Hard Disks </h3></li>
+                    <li><h3> Head Phones </h3></li>
+                    <li><h3> Micro Phones </h3></li>
+                </ul>
+            </section>
+        </article>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+    </body>
+</html>
